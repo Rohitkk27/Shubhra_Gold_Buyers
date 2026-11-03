@@ -1,290 +1,449 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Shubhra Gold Buyers</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Services | Shubhra Gold Buyers</title>
+
+    <!-- Bootstrap 4.6.2 -->
+     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            color: #333
-        }
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-        h1,
-        h2,
-        h3,
-        h4 {
-            font-family: 'Cormorant Garamond', serif;
-            font-weight: 700
-        }
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-        .navbar,
-        footer {
-            background: #17130d
-        }
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
 
-        .navbar {
-            padding: 15px 0
-        }
-
-        .navbar-brand {
-            font-family: 'Cormorant Garamond', serif;
-            font-size: 30px;
-            font-weight: bold;
-            color: #d5ae55 !important
-        }
-
-        .nav-link {
-            color: white !important;
-            font-size: 13px;
-            margin-left: 13px
-        }
-
-        .nav-link:hover {
-            color: #d5ae55 !important
-        }
-
-      
-        .page-banner {
-            padding: 100px 0;
-            background: linear-gradient(#0009, #0009), url(img2.jpg) center/cover;
-            color: white;
-            text-align: center
-        }
-
-        .page-banner h1 {
-            font-size: 60px;
-            color: #e8c36a
-        }
-
-        .section {
-            padding: 80px 0
-        }
-
-        .small-title {
-            color: #c49a35;
-            letter-spacing: 3px;
-            font-size: 12px
-        }
-
-        .section-title {
-            font-size: 45px
-        }
-
-        .desc {
-            color: #777;
-            font-size: 14px;
-            line-height: 1.9
-        }
-
-        .service-box {
-            background: #fff;
-            border: 1px solid #eee;
-            padding: 35px 25px;
-            text-align: center;
-            height: 100%;
-            transition: .3s
-        }
-
-        .service-box:hover {
-            transform: translateY(-7px);
-            box-shadow: 0 8px 25px #00000015
-        }
-
-        .service-box i {
-            font-size: 38px;
-            color: #c49a35;
-            margin-bottom: 20px
-        }
-
-        .service-box h3 {
-            font-size: 27px
-        }
-
-        footer {
-            color: white;
-            padding: 50px 0 15px
-        }
-
-        footer h3 {
-            color: #d5ae55
-        }
-
-        footer a {
-            display: block;
-            color: #bbb;
-            font-size: 13px;
-            margin: 10px 0
-        }
-
-        footer a:hover {
-            color: #d5ae55;
-            text-decoration: none
-        }
-
-        footer p {
-            font-size: 13px;
-            color: #bbb;
-            line-height: 1.9
-        }
-
-        @media(max-width:768px) {
-            .page-banner h1 {
-                font-size: 43px
-            }
-
-            .section-title {
-                font-size: 36px
-            }
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="logo.png" height="80px" width="130px"> SHUBHRA GOLD
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="branches.html">BRANCHES</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="services.html">SERVICES</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
-                </ul>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+
+    <a class="navbar-brand" href="index.html">
+        <img src="logo.png" height="70px">
+    </a>
+
+    <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+
+        <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" style="font-size: 15px" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" style="font-size: 15px" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" style="font-size: 15px" href="branches.html">Branches</a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" style="font-size: 15px" href="services.html">Services</a>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" style="font-size: 15px" href="blog.html">Blog</a>
+            </li> -->
+
+            <li class="nav-item">
+                <a class="nav-link" style="font-size: 15px" href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+
+        <a href="contact.html" class="call-btn">CALL NOW</a>
+
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="services-hero">
+
+    <div>
+        <!-- <small>Our Services</small> -->
+        <h1>Our Services</h1>
+    </div>
+
+</section>
+
+<!-- SERVICE SUMMARY -->
+<section class="container-fluid service-summary">
+
+    <div class="row">
+
+        <div class="col-md-4 summary-item">
+            <span>01.</span>
+            <h4>Sell Gold</h4>
+            <p>
+                Sell your gold ornaments at competitive market prices
+                with a transparent and reliable process.
+            </p>
+        </div>
+
+        <div class="col-md-4 summary-item">
+            <span>02.</span>
+            <h4>Release Pledged Gold</h4>
+            <p>
+                Get expert assistance in releasing your pledged gold
+                from financial institutions.
+            </p>
+        </div>
+
+        <div class="col-md-4 summary-item">
+            <span>03.</span>
+            <h4>Close Gold Loan</h4>
+            <p>
+                Get professional support to close your gold loan
+                conveniently and securely.
+            </p>
+        </div>
+
+        <div class="col-md-4 summary-item">
+            <span>04.</span>
+            <h4>Best Analytical Testing</h4>
+            <p>
+                Accurate gold purity analysis with advanced testing
+                equipment and experienced professionals.
+            </p>
+        </div>
+
+        <div class="col-md-4 summary-item">
+            <span>05.</span>
+            <h4>Re-Pledge Gold</h4>
+            <p>
+                Get assistance with gold re-pledging and explore
+                suitable financial solutions.
+            </p>
+        </div>
+
+        <div class="col-md-4 summary-item">
+            <span>06.</span>
+            <h4>Transfer Gold Loan</h4>
+            <p>
+                Transfer your existing gold loan with expert guidance
+                and transparent service.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ALL SERVICES -->
+<section class="all-services">
+
+    <div class="section-heading">
+
+        <small>Have a Look at Our</small>
+
+        <h2>Our All Services</h2>
+
+    </div>
+
+    <div class="container-fluid">
+
+        <!-- Sell Gold -->
+        <div class="row service-row">
+
+            <div class="col-md-5">
+                <img src="img1.jpg" alt="Sell Gold">
             </div>
-        </div>
-    </nav>
 
-    <section class="page-banner">
-        <div class="container"><span class="small-title">WHAT WE OFFER</span>
-            <h1>Our Services</h1>
-            <p>Jewellery services for every special occasion.</p>
-        </div>
-    </section>
+            <div class="col-md-7 service-content">
 
-    <section class="section bg-light">
-        <div class="container text-center">
-            <span class="small-title">OUR EXPERTISE</span>
-            <h2 class="section-title">Explore Our Services</h2>
-            <p class="desc mb-5">Discover our jewellery collections and customer services.</p>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-gem"></i>
-                        <h3>Gold Jewellery</h3>
-                        <p class="desc">Explore beautiful gold necklaces, rings, earrings, bangles and traditional
-                            ornaments.</p><a href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-ring"></i>
-                        <h3>Diamond Jewellery</h3>
-                        <p class="desc">Discover elegant diamond jewellery for celebrations and everyday style.</p><a
-                            href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-magic"></i>
-                        <h3>Custom Design</h3>
-                        <p class="desc">Create personalized jewellery designs according to your style and preferences.
-                        </p><a href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-tools"></i>
-                        <h3>Jewellery Repair</h3>
-                        <p class="desc">Get assistance with jewellery repair, maintenance and restoration.</p><a
-                            href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-exchange-alt"></i>
-                        <h3>Gold Exchange</h3>
-                        <p class="desc">Ask about old gold exchange and valuation procedures at our store.</p><a
-                            href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-heart"></i>
-                        <h3>Bridal Collection</h3>
-                        <p class="desc">Explore traditional and modern jewellery for wedding celebrations.</p><a
-                            href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-certificate"></i>
-                        <h3>Purity Guidance</h3>
-                        <p class="desc">Get information about gold purity, karat values and hallmarking.</p><a
-                            href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-shopping-bag"></i>
-                        <h3>Jewellery Shopping</h3>
-                        <p class="desc">Receive personal assistance when selecting jewellery for special occasions.</p>
-                        <a href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-box"><i class="fas fa-user-tie"></i>
-                        <h3>Personal Assistance</h3>
-                        <p class="desc">Get help choosing suitable jewellery based on your needs and preferences.</p><a
-                            href="contact.html" class="btn gold-btn">Enquire Now</a>
-                    </div>
-                </div>
+                <h3>Sell Gold</h3>
+
+                <p>
+                    Turn your gold ornaments into instant cash at the best
+                    market prices. Our experts evaluate your gold using
+                    transparent methods and provide a fair valuation.
+                </p>
+
+                <p>
+                    We ensure a simple, secure, and convenient gold-selling
+                    experience for every customer.
+                </p>
+
             </div>
-        </div>
-    </section>
 
-    <section class="section">
-        <div class="container text-center">
-            <h2 class="section-title">Need More Information?</h2>
-            <p class="desc">Our team is ready to help you with your jewellery enquiries.</p><a href="contact.html"
-                class="btn gold-btn">Contact Our Team</a>
         </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <h3>
-                        <img src="logo.png" height="100px">
-                    </h3>
-                    <p>Beautiful jewellery, timeless designs and memorable moments. Discover elegance with Shubhra Gold Buyers.
-                    </p>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About</a><a
-                        href="branches.html">Branches</a><a href="services.html">Services</a><a
-                        href="blog.html">Blog</a><a href="contact.html">Contact</a>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <h4>Contact Information</h4>
-                    <p><i class="fas fa-map-marker-alt text-warning"></i> Shop no :- 02, malhotra complex near parimal finance and gold loan,dehu road old pune mumbai highway pimpari Chinchwad  412101</p>
-                    <p><i class="fas fa-phone text-warning"></i> +91 8010683134</p>
-                    <p><i class="fas fa-envelope text-warning"></i> shubhragoldbuyers@gmail.com</p>
-                </div>
+        <!-- Release Pledged Gold -->
+        <div class="row service-row">
+
+            <div class="col-md-6 order-md-2">
+                <img src="img7.jpg" alt="Release Pledged Gold">
             </div>
-            <hr class="bg-secondary">
-            <p class="text-center">Copyright © 2026 Shubhra Gold Buyers Jewellers. All Rights Reserved.</p>
+
+            <div class="col-md-6 order-md-1 service-content">
+
+                <h3>Release Pledged Gold</h3>
+
+                <p>
+                    If your gold is pledged with a bank or financial
+                    institution, our team can guide you through the process
+                    of releasing your valuable jewellery.
+                </p>
+
+                <p>
+                    We help you understand the process and available options.
+                </p>
+
+            </div>
+
         </div>
-    </footer>
-  
+
+        <!-- Gold Testing -->
+        <div class="row service-row">
+
+            <div class="col-md-5">
+                <img src="testing.webp" alt="Gold Analytical Testing">
+            </div>
+
+            <div class="col-md-7 service-content">
+
+                <h3>Best Analytical Testing</h3>
+
+                <p>
+                    Our gold purity testing service helps you understand
+                    the quality and purity of your gold ornaments.
+                    We focus on accuracy, transparency, and customer trust.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Close Gold Loan -->
+        <div class="row service-row">
+
+            <div class="col-md-6 order-md-2">
+                <img src="img4.jpg" alt="Close Gold Loan">
+            </div>
+
+            <div class="col-md-6 order-md-1 service-content">
+
+                <h3>Close Gold Loan</h3>
+
+                <p>
+                    Our team provides guidance to help you understand the
+                    gold loan closure process and the steps needed to
+                    retrieve your pledged jewellery.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Re-pledge Gold -->
+        <div class="row service-row">
+
+            <div class="col-md-5">
+                <img src="img5.jpg" alt="Re-pledge Gold">
+            </div>
+
+            <div class="col-md-7 service-content">
+
+                <h3>Re-Pledge Gold</h3>
+
+                <p>
+                    Re-pledge your gold with guidance from our experienced
+                    team. We help customers understand their options and
+                    the associated process.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Transfer Gold Loan -->
+        <div class="row service-row">
+
+            <div class="col-md-6 order-md-2">
+                <img src="img6.jpg" alt="Transfer Gold Loan">
+            </div>
+
+            <div class="col-md-6 order-md-1 service-content">
+
+                <h3>Transfer Gold Loan</h3>
+
+                <p>
+                    Explore gold loan transfer options with support from
+                    our team. We help you understand the process and
+                    required documentation.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Transparency -->
+        <div class="row service-row">
+
+            <div class="col-md-5">
+                <img src="img1.jpg" alt="Transparency and Trust">
+            </div>
+
+            <div class="col-md-7 service-content">
+
+                <h3>Transparency and Trust</h3>
+
+                <p>
+                    We believe in honest transactions, clear communication,
+                    and customer satisfaction. Our goal is to make every
+                    gold transaction straightforward and trustworthy.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Instant Bank Transfer -->
+        <div class="row service-row">
+
+            <div class="col-md-6 order-md-2">
+                <img src="img4.jpg" alt="Instant Bank Transfer">
+            </div>
+
+            <div class="col-md-6 order-md-1 service-content">
+
+                <h3>Instant Bank Transfer</h3>
+
+                <p>
+                    Receive payments through convenient banking methods,
+                    subject to transaction verification and applicable
+                    banking procedures.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Software Verification -->
+        <div class="row service-row">
+
+            <div class="col-md-5">
+                <img src="soft.webp" alt="Software Verification">
+            </div>
+
+            <div class="col-md-7 service-content">
+
+                <h3>Software Verification</h3>
+
+                <p>
+                    We use modern digital tools and organized verification
+                    procedures to support accurate gold evaluation and
+                    secure transactions.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- TECHNOLOGY -->
+<!-- <section class="technology">
+
+    <small>SPECIAL OFFER</small>
+
+    <h2>
+        Swiss-engineered XRF technology
+        (X-Ray Fluorescence Technology)
+    </h2>
+
+    <p>
+        Advanced technology for accurate gold purity testing.
+    </p>
+
+    <a href="contact.html" class="technology-btn">
+        CONTACT US FOR AN APPOINTMENT
+    </a>
+
+</section> -->
+
+<!-- APPOINTMENT -->
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="row">
+
+        <div class="col-md-3">
+
+            <h5><img src="logo.png" height="70px"> SHUBHRA GOLD BUYERS</h5>
+
+            <p>Trusted Gold Buying and Jewellery Services</p>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <h5>Services</h5>
+
+            <p><a href="services.html">Sell Gold</a></p>
+            <p><a href="services.html">Gold Testing</a></p>
+            <p><a href="services.html">Gold Loan</a></p>
+            <p><a href="services.html">Secure Payments</a></p>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <h5>About</h5>
+
+            <p><a href="about.html">Our Story</a></p>
+            <p><a href="branches.html">Our Branches</a></p>
+            <!-- <p><a href="blog.html">Our Blog</a></p> -->
+            <p><a href="contact.html">Contact Us</a></p>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <h5>Get In Touch</h5>
+
+            <p>Shop no :- 02, Malhotra complex near parimal finance and Gold Loan,Dehu Road Old Pune Mumbai highway Pimpari Chinchwad  412101</p>
+            <p>Phone: +91 8010683134</p>
+            <p>Email: shubhragoldbuyers@gmail.com</p>
+
+            <a href="#"><i class="fab fa-facebook mr-2"></i></a>
+            <a href="#"><i class="fab fa-instagram mr-2"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Shubhra Gold Buyers. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+
 </body>
-
 </html>
